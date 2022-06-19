@@ -5,16 +5,16 @@
     - Operadores de comparação, são utilizados na tomada de decisões e em loops;
 
     - Tipos de operadores de comparação:
-        - Igual a ( == ): retorna true se ambos os operandos forem iguais
+        - Igual a ( == ): retorna true se ambos os operandos forem iguais (converte e compara apenas o valor)
             Ex.: 5 == "5"; // true
 
-        - Diferente de ( != ): retorna true se ambos os operandos forem diferentes
+        - Diferente de ( != ): retorna true se ambos os operandos forem diferentes (converte e compara apenas o valor)
             Ex.: 5 != "5"; // false
 
-        - Igual a, estrito ( === ): retorna true se ambos os operandos forem iguais e do mesmo tipo
-            Ex.: 5 === "5"; // false
+        - Igual a, estrito ( === ): retorna true se ambos os operandos forem iguais e do mesmo tipo (compara tipo e valor)
+            Ex.: 5 === "5"; // false 
         
-        - Diferente de, estrito ( !== ): retorna true se ambos os operandos são iguais e de tipos diferentes, ou se ambos os operandos são diferentes
+        - Diferente de, estrito ( !== ): retorna true se ambos os operandos são iguais e de tipos diferentes, ou se ambos os operandos são diferentes (compara tipo e valor)
             Ex.: 5 !== "5"; // true
         
         - Maior que ( > ): retorna true se o operando à esquerda for maior que o operando à direita

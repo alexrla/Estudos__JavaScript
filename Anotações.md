@@ -62,3 +62,23 @@
   */
   ```
 
+- **Precedência de operadores lógicos:**
+
+  - **Primeiro: operações entre parênteses;**
+  - **Segundo: Not [Não] lógico ( ! );**
+  - **Terceiro: And [E] lógico ( && );**
+  - **Por último: Or [Ou] lógico ( || );**
+
+- **Operador ternário:**
+
+  ```javascript
+  // Utilizado para inicializar uma variável
+  
+  // Ex.:
+  let myVar = expressão ? (se true, faça isso...) : (senão, faça isso...);
+  
+  // Podemos realizar aninhamento, com os operadores ternários
+  let myVar = expressão ? (expressão ? (se true, faça isso...) : (senão, faça isso...)) : (senão, faça isso...);
+  ```
+
+  

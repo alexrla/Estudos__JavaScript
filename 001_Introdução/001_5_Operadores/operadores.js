@@ -108,16 +108,16 @@ console.log(b); // b = 1
 // Operadores de comparação: utilizados para comparar dois operandos (retornam um valor booleano: true ou false)
 /*
     Tipos de operadores de comparação:
-        - Igual a ( == ): retorna true se ambos os operandos forem iguais
+        - Igual a ( == ): retorna true se ambos os operandos forem iguais (converte e compara apenas o valor)
             Ex.: x == y;
 
-        - Diferente de ( != ): retorna true se ambos os operandos forem diferentes
+        - Diferente de ( != ): retorna true se ambos os operandos forem diferentes (converte e compara apenas o valor)
             Ex.: x != y;
 
-        - Igual a, estrito ( === ): retorna true se ambos os operandos forem iguais e do mesmo tipo
+        - Igual a, estrito ( === ): retorna true se ambos os operandos forem iguais e do mesmo tipo (compara tipo e valor)
             Ex.: x === y;
         
-        - Diferente de, estrito ( !== ): retorna true se ambos os operandos são iguais e de tipos diferentes, ou se ambos os operandos são diferentes
+        - Diferente de, estrito ( !== ): retorna true se ambos os operandos são iguais e de tipos diferentes, ou se ambos os operandos são diferentes (compara tipo e valor)
             Ex.: x !== y; 
         
         - Maior que ( > ): retorna true se o operando à esquerda for maior que o operando à direita
