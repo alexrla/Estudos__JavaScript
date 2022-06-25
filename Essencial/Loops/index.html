@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <ul class="listOne"></ul>
+
+        <ul class="listTwo"></ul>
+
+        <script>
+            const myList = document.querySelector(".listOne");
+            const mySecondList = document.querySelector(".listTwo");
+
+            let i = 0;
+            while(i < 10)   {
+                const myItem = document.createElement("li");
+
+                myItem.innerHTML = `Item ${i + 1}`;
+
+                myList.appendChild(myItem);
+
+                i++;
+            }
+
+            for(let i = 0; i < 10; i++) {
+                const myItem = document.createElement("li");
+
+                myItem.innerHTML = `Item ${i + 1}`;
+
+                mySecondList.appendChild(myItem);
+            }
+        </script>
+    </body>
+</html>
