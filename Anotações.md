@@ -81,4 +81,4 @@
   let myVar = expressão ? (expressão ? (se true, faça isso...) : (senão, faça isso...)) : (senão, faça isso...);
   ```
 
-  
+- **Métodos: propriedades de objetos que possui como valor, uma função;**
