@@ -19,8 +19,8 @@
 */
 
 /* Declarando e inicializando uma variável:
-     - number é o identificador (nome) da variável;
-     - 5 é o valor atribuído a variável de nome number;
+    - number é o identificador (nome) da variável;
+    - 5 é o valor atribuído a variável de nome number;
 */ 
 let number = 5;
 
@@ -43,7 +43,7 @@ letterTwo = 'c';
 console.log(letterTwo); // c
 
 /*
-     - Regras para nomear variáveis:
+    - Regras para nomear variáveis:
         - Os nomes das variáveis devem se inicializar por letras minúsculas,
         um sublinhado ou ( _ ) ou um cifrão ( $ ):
             . let name = 'João';

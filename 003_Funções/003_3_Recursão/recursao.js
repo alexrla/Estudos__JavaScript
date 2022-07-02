@@ -21,7 +21,7 @@
     - A essa condição, damos o nome de condição básica;
 
     - Para evitar a recursão infinita, usamos abordagens como if...else (estruturas condicionais), onde, dependendo da veracidade da condição, realizamos a chamada recursiva ou não. Ex.:
-       function nomeDaFuncao() {
+        function nomeDaFuncao() {
             if(condição)    {
                 nomeDaFuncao();
             }
